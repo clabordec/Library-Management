@@ -51,8 +51,6 @@ The Library Management System is a comprehensive database solution designed to s
 <br>
 
 ## Contact
-For questions, feedback, or support, please reach out to:
-
-Name: Chaanyah Laborde
-Email: chaanyahlaborde@gmail.com
-LinkedIn: [My LinkedIn](https://www.linkedin.com/in/claborde/)
+Name: Chaanyah Laborde <br>
+Email: chaanyahlaborde@gmail.com <br>
+LinkedIn: [My LinkedIn](https://www.linkedin.com/in/claborde/) <br>
