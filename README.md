@@ -31,25 +31,24 @@ The Library Management System is a comprehensive database solution designed to s
 <br>
 
 ## Installation & Setup
-Database Setup
+1.Database Setup
+    - Open SQL Server Management Studio (SSMS).
+    - Execute the provided LibraryManagementSystem.sql script to create the database schema.
 
-Open SQL Server Management Studio (SSMS).
-Execute the provided LibraryManagementSystem.sql script to create the database schema.
-SSIS Integration
+2. SSIS Integration
+    - Deploy the SSIS package provided in the DataIntegration/ directory.
+    - Schedule SSIS jobs for periodic data import/export tasks.
 
-Deploy the SSIS package provided in the DataIntegration/ directory.
-Schedule SSIS jobs for periodic data import/export tasks.
-SSRS Configuration
+3. SSRS Configuration
+    - Open the SSRS Report Manager.
+    - Upload the report files from the Reports/ directory.
+    - Assign appropriate permissions to access reports.
 
-Open the SSRS Report Manager.
-Upload the report files from the Reports/ directory.
-Assign appropriate permissions to access reports.
-Testing
+4. Testing
+    - Populate the database with sample data using the SampleData.sql script.
+    - Verify database operations by running sample queries provided in the documentation.
 
-Populate the database with sample data using the SampleData.sql script.
-Verify database operations by running sample queries provided in the documentation.
-
-<br
+<br>
 
 ## Contact
 For questions, feedback, or support, please reach out to:
