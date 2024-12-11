@@ -31,7 +31,7 @@ The Library Management System is a comprehensive database solution designed to s
 <br>
 
 ## Installation & Setup
-1.Database Setup
+1. Database Setup
     - Open SQL Server Management Studio (SSMS).
     - Execute the provided LibraryManagementSystem.sql script to create the database schema.
 
