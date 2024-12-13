@@ -15,42 +15,58 @@ The Library Management System is a comprehensive database solution designed to s
 <br>
 
 ## Tools & Technologies
-1. SQL Server 2016
-    - Core database engine for robust data storage and management.
-    - Advanced query optimization for high performance.
-2. T-SQL (Transact-SQL)
-    - Implements complex business logic through stored procedures, functions, and triggers.
-    - Optimizes database performance with custom indexing and query tuning.
+1. T-SQL
+    - Core language for database querying and procedural logic.
+    - Used for creating stored procedures, triggers, functions, and views to support the banking system's operations.
+    - Ensures optimized query performance and secure data handling.
+
+2. SQL Server 2016
+    - Relational database engine chosen for its robustness, security, and performance.
+    - Features utilized include:
+        - High Availability (HA) and disaster recovery (DR) with Always On Availability Groups.
+        - Transparent Data Encryption (TDE) to secure sensitive financial data.
+        - Advanced indexing strategies to handle large volumes of transactional data efficiently.
+
 3. SQL Server Integration Services (SSIS)
-    - Automates data migration and transformation tasks.
-    - Ensures seamless integration of external datasets into the library system.
+   - Automates ETL (Extract, Transform, Load) processes for seamless data integration.
+   - Utilized for importing/exporting data across systems and maintaining data consistency.
+   - Supports automated batch jobs for regular updates.
+  
 4. SQL Server Reporting Services (SSRS)
-    - Provides dynamic and interactive reports for library administrators.
-    - Includes dashboards to monitor library operations and key performance indicators (KPIs).
+    - Provides detailed, real-time financial and operational reports.
+    - Enables management to make informed decisions using interactive dashboards and parameterized reports.
 
 <br>
 
-## Installation & Setup
-1. Database Setup
-    - Open SQL Server Management Studio (SSMS).
-    - Execute the provided LibraryManagementSystem.sql script to create the database schema.
+## Usage
+- Day-to-Day Operations:
+  - Use the IMS dashboard to monitor inventory levels, restocking needs, and sales trends.
+  - Schedule daily/weekly reports to keep stakeholders informed.
 
-2. SSIS Integration
-    - Deploy the SSIS package provided in the DataIntegration/ directory.
-    - Schedule SSIS jobs for periodic data import/export tasks.
+- Data Integration:
+  - Automate data imports from external systems using pre-configured SSIS packages.
 
-3. SSRS Configuration
-    - Open the SSRS Report Manager.
-    - Upload the report files from the Reports/ directory.
-    - Assign appropriate permissions to access reports.
-
-4. Testing
-    - Populate the database with sample data using the SampleData.sql script.
-    - Verify database operations by running sample queries provided in the documentation.
-
+- Advanced Reporting:
+  - Leverage SSRS to customize and drill down into specific inventory metrics.
+ 
 <br>
+
+## Directory Structure
+```graphql
+Library_Management\
+├── T-SQL_Scripts\
+│   ├── Schema\
+│   ├── Procedures\
+│   ├── Triggers\
+├── SSIS_Packages\
+├── SSRS_Reports\
+├── PowerShell_Scripts\
+├── Documentation\
+│   ├── UserGuide.pdf
+│   ├── ArchitectureDiagram.png
+```
 
 ## Contact
 Name: Chaanyah Laborde <br>
 Email: chaanyahlaborde@gmail.com <br>
-LinkedIn: [My LinkedIn](https://www.linkedin.com/in/claborde/) <br>
+LinkedIn: [Chaanyah Laborde](https://www.linkedin.com/in/claborde/) <br>
